@@ -13,7 +13,7 @@ telegram = https://t.me/baipiao_666
 
 [rewrite_local]
 
-(?<=_region1?=)CN(?=&) url 307 JP
+(?<=_region1?=)CN(?=&) url 307 KR
 (?<=&mcc_mnc=)46 url 307 44
 (^h.+v5\/)(\?.+) url 302 $1
 
